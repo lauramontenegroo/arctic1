@@ -502,3 +502,28 @@ p a:hover{
 .redes a:hover{
     transform: scale(1.2);
 }
+
+@media (max-width: 768px){
+    .menu{
+        display: block;
+    }
+    
+
+    .gridalbums{
+        min-height: 100vh;
+        list-style-type: none;
+        margin: 4rem;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        grid-template-areas: 
+        "whatever    favourite"    
+        "humbug      suckitandsee"
+        "am    tbhyc"
+        "thecar    0";
+
+        gap: 2rem;
+    }
+}
