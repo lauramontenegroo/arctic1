@@ -8,21 +8,10 @@ body{
     background-color: black;
 }
 
-.logo-pag{
-    flex: 1;
-    text-align: center;
-    position: relative;
-    bottom: 50px;
-}
-
 .carrousel{
     display: block;
     margin-left: 10rem;
     margin-right: 10rem;
-}
-
-.logo-pag img{
-    width: 250px;
 }
 
 .menu{
