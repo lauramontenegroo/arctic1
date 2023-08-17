@@ -414,7 +414,6 @@ p a:hover{
 }
 
 .redes{
-    min-width: 700px;
     display: flex;
     justify-content:center;
     gap: 10px;  
@@ -451,20 +450,11 @@ p a:hover{
     .gridalbums{
         min-height: 100vh;
         list-style-type: none;
-        margin: 4rem;
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-
-        grid-template-areas: 
-        "whatever    favourite"    
-        "humbug      suckitandsee"
-        "am    tbhyc"
-        "thecar    0";
-
-        gap: 2rem;
+        
+        display: block;
     }
+
+
 
     .redesfooter{
         min-width: none;
