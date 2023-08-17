@@ -40,49 +40,17 @@ body{
 }
 
 .gridhome{
-    min-height: 100vh;
     list-style-type: none;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 
     grid-template-areas: 
-        "img1    img2    img3"
-        "img4    img5    img6"
-        "img7    img8    img9"
-        "img10   img11   img12"
-        "img13   img14   img15"
-        "img16   img17   img18";
-
-    gap: 5px;
-}
-
-.img1{
-    grid-area: img1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img2{
-    grid-area: img2;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img3{
-    grid-area: img3;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        "img4    img5"
+        "img7    img8"
+        "img10   img11"
+        "img13   img14"; 
 }
 
 .img4{
@@ -94,6 +62,10 @@ body{
     align-items: center;
 }
 
+.img4 img{
+    border: 5px solid #6d597a;
+}
+
 .img5{
     grid-area: img5;
 
@@ -103,13 +75,8 @@ body{
     align-items: center;
 }
 
-.img6{
-    grid-area: img6;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.img5 img{
+    border: 5px solid #6d597a;
 }
 
 .img7{
@@ -121,6 +88,10 @@ body{
     align-items: center;
 }
 
+.img7 img{
+    border: 5px solid #6d597a;
+}
+
 .img8{
     grid-area: img8;
 
@@ -130,13 +101,8 @@ body{
     align-items: center;
 }
 
-.img9{
-    grid-area: img9;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.img8 img{
+    border: 5px solid #6d597a;
 }
 
 .img10{
@@ -148,6 +114,10 @@ body{
     align-items: center;
 }
 
+.img10 img{
+    border: 5px solid #6d597a;
+}
+
 .img11{
     grid-area: img11;
 
@@ -157,13 +127,8 @@ body{
     align-items: center;
 }
 
-.img12{
-    grid-area: img12;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.img11 img{
+    border: 5px solid #6d597a;
 }
 
 .img13{
@@ -175,6 +140,10 @@ body{
     align-items: center;
 }
 
+.img13 img{
+    border: 5px solid #6d597a;
+}
+
 .img14{
     grid-area: img14;
 
@@ -184,40 +153,8 @@ body{
     align-items: center;
 }
 
-.img15{
-    grid-area: img15;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img16{
-    grid-area: img16;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img17{
-    grid-area: img17;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img18{
-    grid-area: img18;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.img14 img{
+    border: 5px solid #6d597a;
 }
 
 a{
