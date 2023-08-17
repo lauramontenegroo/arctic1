@@ -177,12 +177,9 @@ nav a:hover{
     position: relative;
     bottom: 100px;
 }
-.piedepag{
-    margin-top: 3rem;
-}
 
 .redesfooter{
-    min-width: 700px;
+    
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -445,6 +442,11 @@ p a:hover{
         display: block;
     }
     
+    .gridhome{
+        min-height: 100vh;
+
+        display: block
+    }
 
     .gridalbums{
         min-height: 100vh;
@@ -462,5 +464,18 @@ p a:hover{
         "thecar    0";
 
         gap: 2rem;
+    }
+
+    .redesfooter{
+        min-width: none;
+    }
+
+    .p-footer{
+        justify-content: center;
+    }
+
+    .carrousel{
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
