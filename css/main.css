@@ -167,6 +167,9 @@ a{
 
 nav a:hover{
     color: white;
+}
+
+nav a{
     transition: 1s;
 }
 
@@ -394,6 +397,9 @@ nav a:hover{
 
 p a:hover{
     color: white;
+}
+
+p a{
     transition: 1s;
 }
 
