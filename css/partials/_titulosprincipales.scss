@@ -1,0 +1,20 @@
+.titulo-acerca-de, .titulovideo, .titulodiscografia{
+    background-color: $mainColor;
+    color: $colorTerciary;
+    font-size: 22px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-rec-arg{
+    color: $mainColor;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 3rem;
+}

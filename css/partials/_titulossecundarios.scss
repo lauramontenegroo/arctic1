@@ -1,0 +1,20 @@
+.titulo-info-whatever, .titulo-info-favourite, .titulo-info-humbug, .titulo-info-suckit, .titulo-info-am, .titulo-info-tbhyc, .titulo-info-thecar {
+    background-color: $mainColor;
+    color: $colorTerciary;
+    font-size: 26px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mirrorball, .bodypaint, .fourout, .tranquility, .doiwanna, .iwannabeyours, .suckit, .blacktreacle, .crying, .potion, .oldyellow, .teddy, .mardybum, .dancefloor{
+    color: $mainColor;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}

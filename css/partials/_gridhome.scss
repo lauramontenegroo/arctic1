@@ -1,0 +1,119 @@
+.gridhome{
+    list-style-type: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+        "img4    img5"
+        "img7    img8"
+        "img10   img11"
+        "img13   img14"; 
+    
+    row-gap: 1rem;
+}
+
+.img4{
+    grid-area: img4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img4 img{
+    border: 5px solid $mainColor;
+}
+
+.img5{
+    grid-area: img5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img5 img{
+    border: 5px solid $mainColor;
+}
+
+.img7{
+    grid-area: img7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img7 img{
+    border: 5px solid $mainColor;
+}
+
+.img8{
+    grid-area: img8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img8 img{
+    border: 5px solid $mainColor;
+}
+
+.img10{
+    grid-area: img10;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img10 img{
+    border: 5px solid $mainColor;
+}
+
+.img11{
+    grid-area: img11;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img11 img{
+    border: 5px solid $mainColor;
+}
+
+.img13{
+    grid-area: img13;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img13 img{
+    border: 5px solid $mainColor;
+}
+
+.img14{
+    grid-area: img14;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img14 img{
+    border: 5px solid $mainColor;
+}

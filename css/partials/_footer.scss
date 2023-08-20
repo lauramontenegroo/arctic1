@@ -1,0 +1,56 @@
+.redesfooter{
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 2rem;
+}
+
+.redesfooter a {
+    text-decoration: none;
+    font-size: 28px;
+    background-color: #6d597a;
+    color: black;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;;
+    transition: all .4s ease-in-out;
+}
+
+.redesfooter a:hover{
+    transform: scale(1.2);
+}
+
+.p-footer{
+    color: #6d597a;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes{
+    display: flex;
+    justify-content:center;
+    gap: 10px;  
+}
+
+.redes a {
+    text-decoration: none;
+    font-size: 28px;
+    background-color: #6d597a;
+    color: black;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;;
+    transition: all .4s ease-in-out;
+}
+
+.redes a:hover{
+    transform: scale(1.2);
+}

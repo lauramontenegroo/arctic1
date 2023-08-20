@@ -1,0 +1,58 @@
+@media (max-width: 768px){
+    .menu{
+        display: block;
+    }
+    
+    .gridhome{
+        min-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+        "img4"    
+        "img5"
+        "img7"    
+        "img8"
+        "img10"
+        "img11"
+        "img13"   
+        "img14"; 
+    
+    row-gap: 1rem;
+    }
+
+    .gridalbums{
+        min-height: 100vh;
+        list-style-type: none;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+        grid-template-areas: 
+        "whatever"    
+        "favourite"
+        "humbug"
+        "suckitandsee"
+        "am"
+        "tbhyc"    
+        "thecar";
+
+        gap: 2rem;
+    }
+    
+    .redesfooter{
+        min-width: none;
+    }
+
+    .p-footer{
+        justify-content: center;
+    }
+
+    .carrousel{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}

@@ -1,0 +1,120 @@
+.gridalbums{
+    min-height: 100vh;
+    list-style-type: none;
+    margin: 4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+        "whatever    favourite    humbug      suckitandsee"
+        "am    tbhyc    thecar    0";
+
+    gap: 2rem;
+}
+
+.portadawhatever{
+    background-color: $mainColor;
+    border-radius: 1rem;
+    font-size: 22px;
+    grid-area: whatever;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.favourite{
+    background-color: $mainColor;
+    border-radius: 1rem;
+    font-size: 22px;
+    grid-area: favourite;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.humbug{
+    background-color: $mainColor;
+    border-radius: 1rem;
+    font-size: 22px;
+    grid-area: humbug;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.suckitandsee{
+    background-color: $mainColor;
+    border-radius: 1rem;
+    font-size: 22px;
+    grid-area: suckitandsee;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.am{
+    background-color: $mainColor;
+    border-radius: 1rem;
+    font-size: 22px;
+    grid-area: am;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tbhyc{
+    background-color: $mainColor;
+    border-radius: 1rem;
+    font-size: 22px;
+    grid-area: tbhyc;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thecar{
+    background-color: $mainColor;
+    border-radius: 1rem;
+    font-size: 22px;
+    grid-area: thecar;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgwhatever, .imgfavourite, .imghumbug, .imgsuckit, .imgam, .imgtranquility,.imgthecar{
+    max-width: 100%;
+}
+
+p a:hover{
+    color: $colorSecondary;
+}
+
+p a{
+    color: $colorTerciary;
+    text-decoration: none;
+    transition: 1s;
+}
