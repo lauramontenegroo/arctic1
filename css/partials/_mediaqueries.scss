@@ -1,6 +1,12 @@
 @media (max-width: 768px){
     .menu{
-        display: block;
+        flex-direction: column;
+        background-color: $colorTerciary;
+        gap: 10px;
+
+        a{
+            padding: 20px;
+        }
     }
     
     .gridhome{

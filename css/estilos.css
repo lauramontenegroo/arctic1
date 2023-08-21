@@ -401,7 +401,12 @@ p a {
 
 @media (max-width: 768px) {
   .menu {
-    display: block;
+    flex-direction: column;
+    background-color: black;
+    gap: 10px;
+  }
+  .menu a {
+    padding: 20px;
   }
   .gridhome {
     min-height: 100vh;
