@@ -1,4 +1,13 @@
+@media (min-width: 768px){
+    .nav-mobile{
+        display: none;
+    }
+}
 @media (max-width: 768px){
+    .nav-desktop{
+        display: none;
+    }
+    
     .menu{
         flex-direction: column;
         background-color: $colorTerciary;
@@ -10,6 +19,7 @@
     }
     
     .gridhome{
+        margin-top: 7rem;
         min-height: 100vh;
 
         display: grid;
@@ -27,6 +37,10 @@
         "img14"; 
     
     row-gap: 1rem;
+    }
+
+    .titulo-acerca-de, .titulodiscografia, .titulovideo, .redes{
+        margin-top: 7rem;
     }
 
     .gridalbums{

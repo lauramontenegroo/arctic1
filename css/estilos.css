@@ -53,6 +53,14 @@ body {
   color: white;
 }
 
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-brand {
+  justify-content: space-between !important;
+}
+
 .gridhome {
   list-style-type: none;
   display: grid;
@@ -399,7 +407,15 @@ p a {
   transform: scale(1.2);
 }
 
+@media (min-width: 768px) {
+  .nav-mobile {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
+  .nav-desktop {
+    display: none;
+  }
   .menu {
     flex-direction: column;
     background-color: black;
@@ -409,12 +425,16 @@ p a {
     padding: 20px;
   }
   .gridhome {
+    margin-top: 7rem;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "img4" "img5" "img7" "img8" "img10" "img11" "img13" "img14";
     row-gap: 1rem;
+  }
+  .titulo-acerca-de, .titulodiscografia, .titulovideo, .redes {
+    margin-top: 7rem;
   }
   .gridalbums {
     min-height: 100vh;
