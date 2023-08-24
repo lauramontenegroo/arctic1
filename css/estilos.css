@@ -212,6 +212,7 @@ body {
   display: block;
   margin-left: 10rem;
   margin-right: 10rem;
+  border: 5px solid #6d597a;
 }
 
 .origen, .rec-arg p {
@@ -232,8 +233,12 @@ body {
   padding: 1rem;
 }
 
-.imgrecarg2, .imgrecarg4 {
+.imgrecarg2, .imgrecarg3, .imgrecarg4, .imgrecarg5 {
   text-align: center;
+  gap: 1rem;
+}
+.imgrecarg2 img, .imgrecarg3 img, .imgrecarg4 img, .imgrecarg5 img {
+  border: 5px solid #6d597a;
 }
 
 .gridalbums {
@@ -345,10 +350,13 @@ p a {
   transition: 1s;
 }
 
-.videomirrorball, .videobody, .videofourout, .videotranquility, .videodoiwanna, .videoiwanna, .videosuckit, .videoblack, .videocrying, .videopotion, .videoyellow, .videoteddy, .videomardybum, .videodancefloor {
+.videomirrorball, .videobody, .videofourout, .videotranquility, .videodoiwanna, .videoiwanna, .videosuckit, .videoblack, .videocrying, .videopotion, .videoyellow, .videoteddy, .videomardybum, .videodancefloor, .video-rec {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.videomirrorball iframe, .videobody iframe, .videofourout iframe, .videotranquility iframe, .videodoiwanna iframe, .videoiwanna iframe, .videosuckit iframe, .videoblack iframe, .videocrying iframe, .videopotion iframe, .videoyellow iframe, .videoteddy iframe, .videomardybum iframe, .videodancefloor iframe, .video-rec iframe {
+  border: 5px solid #6d597a;
 }
 
 .redesfooter {

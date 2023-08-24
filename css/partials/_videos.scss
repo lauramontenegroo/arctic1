@@ -1,5 +1,8 @@
-.videomirrorball, .videobody, .videofourout, .videotranquility, .videodoiwanna, .videoiwanna, .videosuckit, .videoblack, .videocrying, .videopotion, .videoyellow, .videoteddy, .videomardybum, .videodancefloor{
+.videomirrorball, .videobody, .videofourout, .videotranquility, .videodoiwanna, .videoiwanna, .videosuckit, .videoblack, .videocrying, .videopotion, .videoyellow, .videoteddy, .videomardybum, .videodancefloor, .video-rec{
     display: flex;
     justify-content: center;
     align-items: center;
+    iframe{
+        border: 5px solid $mainColor
+    }
 }

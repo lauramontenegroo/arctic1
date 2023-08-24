@@ -1,3 +1,7 @@
-.imgrecarg2, .imgrecarg4{
+.imgrecarg2, .imgrecarg3, .imgrecarg4, .imgrecarg5{
     text-align: center;
+    gap: 1rem;
+    img{
+        border: 5px solid $mainColor
+    }
 }
