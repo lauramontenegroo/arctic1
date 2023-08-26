@@ -1,3 +1,9 @@
 $mainColor: #6d597a;
 $colorSecondary: white;
 $colorTerciary: black;
+
+@mixin flex-justify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

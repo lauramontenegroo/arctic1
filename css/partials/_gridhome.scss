@@ -17,10 +17,8 @@
 .img4{
     grid-area: img4;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img4 img{
@@ -30,10 +28,8 @@
 .img5{
     grid-area: img5;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img5 img{
@@ -43,10 +39,8 @@
 .img7{
     grid-area: img7;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img7 img{
@@ -56,10 +50,8 @@
 .img8{
     grid-area: img8;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img8 img{
@@ -69,10 +61,8 @@
 .img10{
     grid-area: img10;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img10 img{
@@ -82,10 +72,8 @@
 .img11{
     grid-area: img11;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img11 img{
@@ -95,10 +83,8 @@
 .img13{
     grid-area: img13;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img13 img{
@@ -108,10 +94,8 @@
 .img14{
     grid-area: img14;
 
-    display: flex;
+    @include flex-justify;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .img14 img{

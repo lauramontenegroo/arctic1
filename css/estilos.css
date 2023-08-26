@@ -22,7 +22,7 @@ body {
 .titulo {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   color: white;
   font-family: sans-serif;
   font-size: 45px;
@@ -38,7 +38,7 @@ body {
   justify-content: space-evenly;
   background-color: #6d597a;
   font-size: 24px;
-  text-align: center;
+  align-items: center;
   padding: 5px;
   position: relative;
   bottom: 80px;
@@ -73,9 +73,9 @@ body {
 .img4 {
   grid-area: img4;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img4 img {
@@ -85,9 +85,9 @@ body {
 .img5 {
   grid-area: img5;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img5 img {
@@ -97,9 +97,9 @@ body {
 .img7 {
   grid-area: img7;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img7 img {
@@ -109,9 +109,9 @@ body {
 .img8 {
   grid-area: img8;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img8 img {
@@ -121,9 +121,9 @@ body {
 .img10 {
   grid-area: img10;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img10 img {
@@ -133,9 +133,9 @@ body {
 .img11 {
   grid-area: img11;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img11 img {
@@ -145,9 +145,9 @@ body {
 .img13 {
   grid-area: img13;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img13 img {
@@ -157,9 +157,9 @@ body {
 .img14 {
   grid-area: img14;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .img14 img {
@@ -242,7 +242,6 @@ body {
 }
 
 .gridalbums {
-  min-height: 100vh;
   list-style-type: none;
   margin: 4rem;
   display: grid;
@@ -258,9 +257,9 @@ body {
   font-size: 22px;
   grid-area: whatever;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -270,9 +269,9 @@ body {
   font-size: 22px;
   grid-area: favourite;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -282,9 +281,9 @@ body {
   font-size: 22px;
   grid-area: humbug;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -294,9 +293,9 @@ body {
   font-size: 22px;
   grid-area: suckitandsee;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -306,9 +305,9 @@ body {
   font-size: 22px;
   grid-area: am;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -318,9 +317,9 @@ body {
   font-size: 22px;
   grid-area: tbhyc;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -330,9 +329,9 @@ body {
   font-size: 22px;
   grid-area: thecar;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -362,6 +361,7 @@ p a {
 .redesfooter {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   margin: 2rem;
 }
@@ -395,6 +395,7 @@ p a {
 .redes {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 
