@@ -6,6 +6,7 @@
 
 body {
   background-color: black;
+  line-height: normal;
 }
 
 .logo-pag {
@@ -192,6 +193,7 @@ body {
   color: black;
   font-size: 26px;
   border-radius: 2rem;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,6 +257,7 @@ body {
   background-color: #6d597a;
   border-radius: 1rem;
   font-size: 22px;
+  padding: 10px;
   grid-area: whatever;
   display: flex;
   justify-content: center;
@@ -267,6 +270,7 @@ body {
   background-color: #6d597a;
   border-radius: 1rem;
   font-size: 22px;
+  padding: 10px;
   grid-area: favourite;
   display: flex;
   justify-content: center;
@@ -279,6 +283,7 @@ body {
   background-color: #6d597a;
   border-radius: 1rem;
   font-size: 22px;
+  padding: 10px;
   grid-area: humbug;
   display: flex;
   justify-content: center;
@@ -291,6 +296,7 @@ body {
   background-color: #6d597a;
   border-radius: 1rem;
   font-size: 22px;
+  padding: 10px;
   grid-area: suckitandsee;
   display: flex;
   justify-content: center;
@@ -303,6 +309,7 @@ body {
   background-color: #6d597a;
   border-radius: 1rem;
   font-size: 22px;
+  padding: 10px;
   grid-area: am;
   display: flex;
   justify-content: center;
@@ -315,6 +322,7 @@ body {
   background-color: #6d597a;
   border-radius: 1rem;
   font-size: 22px;
+  padding: 10px;
   grid-area: tbhyc;
   display: flex;
   justify-content: center;
@@ -327,6 +335,7 @@ body {
   background-color: #6d597a;
   border-radius: 1rem;
   font-size: 22px;
+  padding: 10px;
   grid-area: thecar;
   display: flex;
   justify-content: center;
@@ -337,6 +346,18 @@ body {
 
 .imgwhatever, .imgfavourite, .imghumbug, .imgsuckit, .imgam, .imgtranquility, .imgthecar {
   max-width: 100%;
+}
+
+.imgwhatever, .imgtranquility {
+  padding-bottom: 27px;
+}
+
+.imgsuckit {
+  padding-top: 10px;
+}
+
+.imgfavourite {
+  padding-bottom: 20px;
 }
 
 p a:hover {
@@ -453,6 +474,9 @@ p a {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "whatever" "favourite" "humbug" "suckitandsee" "am" "tbhyc" "thecar";
     gap: 2rem;
+  }
+  .titulo-info-whatever, .titulo-info-favourite, .titulo-info-humbug, .titulo-info-suckit, .titulo-info-am, .titulo-info-tbhyc, .titulo-info-thecar {
+    font-size: 24px;
   }
   .redesfooter {
     min-width: none;

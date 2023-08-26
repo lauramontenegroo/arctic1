@@ -18,6 +18,7 @@
     background-color: $mainColor;
     border-radius: 1rem;
     font-size: 22px;
+    padding: 10px;
     grid-area: whatever;
 
     @include flex-justify;
@@ -29,6 +30,7 @@
     background-color: $mainColor;
     border-radius: 1rem;
     font-size: 22px;
+    padding: 10px;
     grid-area: favourite;
 
     @include flex-justify;
@@ -40,6 +42,7 @@
     background-color: $mainColor;
     border-radius: 1rem;
     font-size: 22px;
+    padding: 10px;
     grid-area: humbug;
 
     @include flex-justify;
@@ -51,6 +54,7 @@
     background-color: $mainColor;
     border-radius: 1rem;
     font-size: 22px;
+    padding: 10px;
     grid-area: suckitandsee;
 
     @include flex-justify;
@@ -62,6 +66,7 @@
     background-color: $mainColor;
     border-radius: 1rem;
     font-size: 22px;
+    padding: 10px;
     grid-area: am;
 
     @include flex-justify;
@@ -73,6 +78,7 @@
     background-color: $mainColor;
     border-radius: 1rem;
     font-size: 22px;
+    padding: 10px;
     grid-area: tbhyc;
 
     @include flex-justify;
@@ -84,6 +90,7 @@
     background-color: $mainColor;
     border-radius: 1rem;
     font-size: 22px;
+    padding: 10px;
     grid-area: thecar;
 
     @include flex-justify;
@@ -93,6 +100,18 @@
 
 .imgwhatever, .imgfavourite, .imghumbug, .imgsuckit, .imgam, .imgtranquility,.imgthecar{
     max-width: 100%;
+}
+
+.imgwhatever, .imgtranquility{
+    padding-bottom: 27px;
+}
+
+.imgsuckit{
+    padding-top: 10px;
+}
+
+.imgfavourite{
+    padding-bottom: 20px;
 }
 
 p a:hover{
