@@ -20,7 +20,6 @@
     font-size: 22px;
     padding: 10px;
     grid-area: whatever;
-
     @include flex-justify;
     flex-direction: column;
     text-align: center;
@@ -31,6 +30,7 @@
     border-radius: 1rem;
     font-size: 22px;
     padding: 10px;
+
     grid-area: favourite;
 
     @include flex-justify;
