@@ -5,6 +5,13 @@
     font-size: 24px;
 }
 
+.redes-parrafo{
+    @include flex-justify;
+    color: $colorSecondary;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
 .lista-whatever, .lista-favourite, .lista-humbug, .lista-suckit, .lista-am, .lista-tbhyc, .lista-thecar{
     color: $colorSecondary;
     font-size: 22px;
