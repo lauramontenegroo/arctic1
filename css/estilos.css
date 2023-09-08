@@ -183,7 +183,7 @@ body {
   border: 5px solid #6d597a;
 }
 
-.titulo-acerca-de, .titulovideo, .titulodiscografia {
+.titulo-acerca-de, .titulovideo, .titulodiscografia, .titulo-redes-sociales {
   background-color: #6d597a;
   color: black;
   font-size: 22px;
@@ -514,6 +514,12 @@ p a {
   .nav-mobile {
     display: none;
   }
+  .cita-ratio-redes {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
 }
 @media (max-width: 768px) {
   .nav-desktop {
@@ -536,7 +542,23 @@ p a {
     grid-template-areas: "img4" "img5" "img7" "img8" "img10" "img11" "img13" "img14";
     row-gap: 1rem;
   }
-  .titulo-acerca-de, .titulodiscografia, .titulovideo, .redes {
+  .cita-ratio-redes {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .redes-parrafo {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .titulo-acerca-de, .titulodiscografia, .titulovideo, .titulo-redes-sociales {
     margin-top: 7rem;
   }
   .gridalbums {
@@ -558,7 +580,7 @@ p a {
     justify-content: center;
   }
   .carrousel {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
 }/*# sourceMappingURL=estilos.css.map */

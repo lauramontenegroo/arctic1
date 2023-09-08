@@ -2,6 +2,13 @@
     .nav-mobile{
         display: none;
     }
+
+    .cita-ratio-redes{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 20px;
+        color: $colorSecondary;
+    }
 }
 @media (max-width: 768px){
     .nav-desktop{
@@ -38,10 +45,28 @@
     
     row-gap: 1rem;
     }
+    .cita-ratio-redes{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 20px;
+        color: $colorSecondary;
+    }
 
-    .titulo-acerca-de, .titulodiscografia, .titulovideo, .redes{
+    .redes-parrafo{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5rem;
+        text-align: center;
+        font-size: 20px;
+        color: $colorSecondary;
+    }
+    .titulo-acerca-de, .titulodiscografia, .titulovideo, .titulo-redes-sociales{
         margin-top: 7rem;
     }
+
+    
 
     .gridalbums{
         min-height: 100vh;
@@ -75,7 +100,7 @@
     }
 
     .carrousel{
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 }
