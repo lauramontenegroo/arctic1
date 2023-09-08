@@ -27,8 +27,9 @@
     font-family: sans-serif;
     font-size: 14px;
     padding: 10px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     @include flex-justify;
+    margin-bottom: 2rem;
 }
 
 .p-footer{

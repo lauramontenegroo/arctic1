@@ -439,6 +439,12 @@ p a {
   border: 5px solid #6d597a;
 }
 
+.grid-live {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .redesfooter {
   display: flex;
   justify-content: center;
@@ -469,10 +475,11 @@ p a {
   font-family: sans-serif;
   font-size: 14px;
   padding: 10px;
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .p-footer {
@@ -569,6 +576,11 @@ p a {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "whatever" "favourite" "humbug" "suckitandsee" "am" "tbhyc" "thecar";
     gap: 2rem;
+  }
+  .grid-live {
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .titulo-info-whatever, .titulo-info-favourite, .titulo-info-humbug, .titulo-info-suckit, .titulo-info-am, .titulo-info-tbhyc, .titulo-info-thecar {
     font-size: 24px;
