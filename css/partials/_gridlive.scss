@@ -2,4 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    "grid-mirrorball    grid-body"
+    "grid-fourout       gridtranquility"
+    "grid-doiwanna      grid-iwannabe"
+    "grid-suckit        gridblack"
+    "grid-crying        grid-potion"
+    "grid-old           grid-teddy"
+    "grid-mardy         grid-dancefloor";
 }

@@ -58,6 +58,11 @@ body {
   background-color: black !important;
 }
 
+.nav-mobile-position {
+  position: sticky;
+  top: 0;
+}
+
 .navbar-brand {
   justify-content: space-between !important;
 }
@@ -443,6 +448,7 @@ p a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "grid-mirrorball    grid-body" "grid-fourout       gridtranquility" "grid-doiwanna      grid-iwannabe" "grid-suckit        gridblack" "grid-crying        grid-potion" "grid-old           grid-teddy" "grid-mardy         grid-dancefloor";
 }
 
 .redesfooter {
@@ -541,7 +547,7 @@ p a {
     padding: 20px;
   }
   .gridhome {
-    margin-top: 7rem;
+    margin-top: 1.5rem;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
@@ -577,11 +583,6 @@ p a {
     grid-template-areas: "whatever" "favourite" "humbug" "suckitandsee" "am" "tbhyc" "thecar";
     gap: 2rem;
   }
-  .grid-live {
-    display: block;
-    margin-left: 3%;
-    margin-right: 3%;
-  }
   .titulo-info-whatever, .titulo-info-favourite, .titulo-info-humbug, .titulo-info-suckit, .titulo-info-am, .titulo-info-tbhyc, .titulo-info-thecar {
     font-size: 24px;
   }
@@ -594,5 +595,12 @@ p a {
   .carrousel {
     margin-left: 8%;
     margin-right: 8%;
+  }
+}
+@media (max-width: 1143px) {
+  .grid-live {
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }/*# sourceMappingURL=estilos.css.map */

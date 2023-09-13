@@ -46,6 +46,11 @@
     background-color: black !important;
 }
 
+.nav-mobile-position{
+    position: sticky;
+    top: 0;
+}
+
 .navbar-brand{
     justify-content: space-between !important;
 }
